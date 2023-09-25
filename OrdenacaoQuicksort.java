@@ -8,7 +8,7 @@
  public class OrdenacaoQuicksort {
     public static void main(String[] args){
  
-        int[] vetor = {1, 23, 45, 2, 3, 44, 57, 9, 87, 12};
+        int[] vetor = {1, 23, 45, 2, 3, 44, 57, 9, 87, 12,99,123,23,234,534,3245,54,2,13,4,324,453,5,45,2,47,87,};
         Quicksort(vetor, 0,vetor.length-1);
 
         for(int i=0; i<vetor.length; i++){
